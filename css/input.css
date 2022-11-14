@@ -3,21 +3,12 @@
 @tailwind utilities;
 
 body {
-    @apply font-sans
+    @apply font-sans;
 }
 
 .card {
     background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
     border-radius: 15px;
-}
-
-.item {
-    width: 51px;
-    height: 51px;
-    background-color: #262E38;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .item {
