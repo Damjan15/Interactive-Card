@@ -5,3 +5,25 @@
 body {
     @apply font-sans
 }
+
+.card {
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 15px;
+}
+
+.item {
+    width: 51px;
+    height: 51px;
+    background-color: #262E38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    @apply w-[51px] h-[51px] bg-darkBlue flex items-center justify-center rounded-full text-mediumGray font-bold text-base leading-6 tracking-wide cursor-pointer hover:bg-orange hover:text-white;
+}
+
+.item.active {
+    @apply w-[51px] h-[51px] bg-mediumGray flex items-center justify-center rounded-full text-white font-bold text-base leading-6 tracking-wide cursor-pointer hover:bg-orange hover:text-white;
+}
