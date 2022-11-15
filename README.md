@@ -11,4 +11,4 @@ Users should be able to:
 - See "Thank you" card state after submitting a rating
 - See hover and focus states for all interactive elements on a page
 
-[Live Preview]()
+[Live Preview](https://lucent-sfogliatella-2bcdce.netlify.app/)
