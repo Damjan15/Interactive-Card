@@ -16,7 +16,7 @@
 <body class="h-screen bg-veryDarkBlue flex items-center justify-center">
 
     <!--==================== RATING CARD ====================-->
-    <div class="max-w-sm h-[416px] px-4 flex flex-col items-center justify-center card md:max-w-[412px] md:rounded-[30px] md:px-6">
+    <div class="max-w-sm h-[416px] px-4 flex flex-col items-center justify-center card md:max-w-[412px] md:rounded-[30px] md:px-6" id="ratings">
         <!-- Content Section -->
         <div>
             <div class="w-10 h-10 bg-darkBlue flex items-center justify-center rounded-full p-3">
@@ -28,27 +28,27 @@
         </div>
 
         <div class="w-full mt-8">
-            <ul class="flex items-center justify-between mb-6">
+            <ul class="flex items-center justify-between mb-6" id="rating-list">
                 <li class="item">1</li>
-                <li class="item active">2</li>
+                <li class="item">2</li>
                 <li class="item">3</li>
                 <li class="item">4</li>
                 <li class="item">5</li>
             </ul>
 
-            <button class="block w-full h-[45px] bg-orange rounded-[22px] text-white uppercase font-bold leading-[18px] text-[15px] tracking-[2px] transition-colors duration-500 ease-in-out hover:bg-white hover:text-orange">Submit</button>
+            <button class="block w-full h-[45px] bg-orange rounded-[22px] text-white uppercase font-bold leading-[18px] text-[15px] tracking-[2px] transition-colors duration-500 ease-in-out hover:bg-white hover:text-orange" id="btn">Submit</button>
         </div>
     </div>
 
 
     <!--==================== RESULTS CARD ====================-->
-    <div class="max-w-sm h-[416px] px-4 flex flex-col items-center justify-center card md:max-w-[412px] md:rounded-[30px] md:px-6">
+    <div class="max-w-sm h-[416px] px-4 hidden flex-col items-center justify-center card md:max-w-[412px] md:rounded-[30px] md:px-6" id="results">
         <!-- Image -->
         <div class="flex flex-col items-center justify-center">
             <div>
                 <img src="illustration-thank-you.svg" alt="thank-you-illustration">
 
-                <span class="block mt-5 bg-darkBlue rounded-full text-sm leading-[22px] text-orange text-center py-2 px-4">You selected 4 out of 5</span>
+                <span class="block mt-5 bg-darkBlue rounded-full text-sm leading-[22px] text-orange text-center py-2 px-4">You selected <span id="rating">4</span> out of 5</span>
             </div>
 
             <div class="text-center">
